@@ -1,0 +1,177 @@
+.enroll__header {
+    margin-top: 3rem;
+}
+
+.enroll header__container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5rem;
+}
+
+.enroll header__right {
+    margin-top: 0;
+    position: relative;
+    margin-right: 0;
+    margin-left: 50%;
+}
+
+
+.RegForms__container {
+    width: 100%;
+    margin: 0 auto;
+    gap: 0 auto;
+    align-items: normal;
+}
+
+.RegForms {
+    width: 100%;
+    margin: 0 auto;
+    gap: 0 auto;
+}
+
+.contact__form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+    gap: 1rem;
+}
+
+.form__address {
+    width: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #080808;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M16.293 8.293a1 1 0 0 0-1.414-1.414L12 10.586 9.707 8.293a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.414 0l3-3a1 1 0 0 0 0-1.414z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a4ad8;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #faf6f6;
+  }
+  
+  h1, h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    justify-content: space-around;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+
+
+  /* ================== MEDIA QUERIES (TABLETS) ===================== */
+@media screen and (max-width: 1024px) {
+    .enroll__header {
+        margin-top: 2rem;
+      }
+    
+      .enroll .header__container {
+        grid-template-columns: auto;
+        gap: 3rem;
+      }
+    
+      .enroll .header__right {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+      }
+    
+      .RegForms__container {
+        max-width: 90%;
+      }
+    }
+
+
+/* ================== MEDIA QUERIES (PHONES) ===================== */
+@media screen and (max-width: 600px) {
+    .enroll__header {
+        margin-top: 1.5rem;
+      }
+    
+      .enroll .header__container {
+        gap: 2rem;
+      }
+    
+      .enroll .header__right {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+      }
+    
+      .RegForms__container {
+        max-width: 90%;
+      }
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .RegForms__container {
+        max-width: 300px;
+        margin: 0 auto;
+        gap: 0 auto;
+    }
+
+    .enroll header__right {
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+}
