@@ -1,5 +1,6 @@
 ## Example GIF
-(./images/Collogo.jpg)
+![LOGO](images/Collogo.jpg)
+
 # Colossus Education
 
 Welcome to Colossus Education - your go-to platform for comprehensive IT training and education!
