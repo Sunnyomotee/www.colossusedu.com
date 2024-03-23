@@ -1,4 +1,3 @@
-## Example GIF
 ![LOGO](images/Collogo.jpg)
 
 # Colossus Education
@@ -29,5 +28,8 @@ For any questions, issues, or feedback, please contact our support team at suppo
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Example GIF
+![Colossus](images/col1.jpg)
 
 
